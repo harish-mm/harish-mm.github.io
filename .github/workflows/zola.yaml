@@ -1,5 +1,8 @@
 name: Zola
 
+permissions:
+  contents: write
+
 on:
   push:
     branches: [ main ]
@@ -20,4 +23,4 @@ jobs:
     - name: Build and deploy
       uses: shalzz/zola-deploy-action@master
       env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        GITHUB_TOKEN: ${{ secrets.DEPLOY_TOKEN }}
