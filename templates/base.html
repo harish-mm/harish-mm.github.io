@@ -1,0 +1,20 @@
+{% import "macros/macros.html" as post_macros %}
+
+<!DOCTYPE html>
+<html>
+{% include "partials/header.html" %}
+
+<body>
+    <div class="content">
+        {% include "partials/nav.html" %}
+
+        {# Post page is the default #}
+        {% block main_content %}
+            Nothing here?!
+        {% endblock main_content %}
+        <hr>
+        <center><small>Copyright © Dipesh Kafle. All rights reserved. |
+        Powered by <a href="https://getzola.org" rel="nofollow">Zola</a> &amp; <a href="https://github.com/not-matthias/apollo/" rel="nofollow">Apollo</a></small></center>    
+    </div>
+</body>
+</html>

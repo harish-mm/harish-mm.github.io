@@ -1,0 +1,38 @@
+base_url = "https://harishmm.github.io/"
+title = "Harish Portfolio"
+build_search_index = false
+generate_feeds = true
+compile_sass = true
+minify_html = true
+taxonomies = [{ name = "tags" }]
+
+theme = "apollo"
+
+[markdown]
+highlight_code = true
+highlight_theme = "monokai"
+
+[extra]
+use_cdn = false
+theme = "toggle"
+mathjax = true
+mathjax_dollar_inline_enable = true
+
+menu = [
+    { name= "/about", url= "/about", weight= 1 },
+    { name = "/blog", url= "/posts", weight= 2 },
+    { name= "/notes", url= "/notes", weight= 3 },
+    { name= "/projects", url= "/projects", weight= 4 },
+    { name= "/publications", url= "/pubs", weight= 5 },
+    { name= "/tags", url= "/tags", weight= 6 },
+]
+
+socials = [
+    { name= "twitter", url= "https://x.com/MMHarrish", icon= "twitter" },
+    { name= "github", url= "https://github.com/harish-mm", icon = "github" },
+    { name= "linkedin", url= "https://linkedin.com/harish-mm", icon = "linkedin" }
+]
+
+[extra.analytics]
+enabled = true
+goatcounter_user = "Harish"
