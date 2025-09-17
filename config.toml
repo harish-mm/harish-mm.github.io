@@ -28,9 +28,10 @@ menu = [
 ]
 
 socials = [
-    { name= "twitter", url= "https://x.com/MMHarrish", icon= "twitter" },
+    { name= "twitter", url= "https://x.com/MMHarrish", icon= "x-twitter" },
     { name= "github", url= "https://github.com/harish-mm", icon = "github" },
-    { name= "linkedin", url= "https://linkedin.com/harish-mm", icon = "linkedin" }
+    { name= "linkedin", url= "https://www.linkedin.com/in/harish-mm/", icon = "linkedin" }
+    { name = "instagram", url = "https://www.instagram.com/harrish_mm/", icon = "instagram" }
 ]
 
 [extra.analytics]
